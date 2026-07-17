@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ae411aeebf.js" crossorigin="anonymous"></script>
+    <title>Contactos</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-code"></i>
+            </a>
+            <input type="checkbox" name="menu-desplegable" id="menu-desplegable">
+            <label for="menu-desplegable" class="menu-icono">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="sobre_mi.html">SOBRE MI</a></li>
+                    <li><a href="proyectos.html">PROYECTOS</a></li>
+                    <li><a href="habilidades.html">HABILIDADES</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <a href="" class="header-btn">CONTACTAME</a>
+        </div>
+    </header>
+    <main>
+
+   <section class="header-hero">
+            <div class="header-container">
+                <header class="header-content">
+                    <span class="subtitulo">
+                        CONTACTO
+                    </span>
+                    <h1 class="titulos">
+                        Hablemos de
+                        <br>
+                        tu próximo proyecto
+                    </h1>
+                    <p class="parrafo">
+                        Estoy abierto a colaboraciones y nuevas oportunidades.
+                        Hablemos sobre cómo puedo ayudarte a construir tu próxima
+                        interfaz web.
+                    </p>
+                </header>
+            </div>
+        </section>
+
+    <section class="contact-section">
+        <div class="container contact-section-container">
+            <article class="contact-information">
+                <header class="contact-card-header">
+                    <div class="contact-header-icon">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div>
+                        <h2 class="subtitle">
+                            Información de contacto
+                        </h2>
+
+                        <p class="paragraph">
+                            Respondo la mayoría de mensajes en menos de 24 horas.
+                        </p>
+                    </div>
+                </header>
+
+                <address class="contact-list">
+
+                    <a href="mailto:mirandacjmt@gmail.com"
+                        class="contact-item">
+                        <div class="contact-item-icon">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div class="contact-item-content">
+                            <h3>Email</h3>
+                            <p>mirandacjmt@gmail.com</p>
+                        </div>
+                    </a>
+
+                    <a href="https://wa.me/+51940770065"
+                        class="contact-item">
+                        <div class="contact-item-icon">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-item-content">
+                            <h3>WhatsApp</h3>
+                            <p>+51 940 770 065</p>
+                        </div>
+                    </a>
+
+                    <div class="contact-item">
+                        <div class="contact-item-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+
+                        <div class="contact-item-content">
+                            <h3>Ubicación</h3>
+                            <p>Perú</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-item-icon">
+                            <i class="fa-regular fa-clock"></i>
+                        </div>
+
+                        <div class="contact-item-content">
+                            <h3>Disponibilidad</h3>
+                            <p>Lunes a viernes · 8:00 a. m. - 6:00 p. m.</p>
+                        </div>
+                    </div>
+
+                </address>
+
+            </article>
+
+            <!-- FORMULARIO -->
+            <article class="contact-form-card" id="contact-form">
+
+                <header class="contact-form-header">
+                    <div class="contact-header-icon">
+                        <i class="fa-solid fa-pen"></i>
+                    </div>
+
+                    <h2 class="subtitle">
+                        Envíame un mensaje
+                    </h2>
+                </header>
+
+                <form action="#" class="contact-form">
+
+                    <div class="input-group">
+                        <label for="name">
+                            Nombre
+                        </label>
+
+                        <input type="text" id="name" name="name" placeholder="Tu nombre" autocomplete="name" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="email">
+                            Correo electrónico
+                        </label>
+
+                        <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" autocomplete="email" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="subject">
+                            Asunto
+                        </label>
+
+                        <input type="text" id="subject" name="subject" placeholder="¿Sobre qué deseas hablar?" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="message">
+                            Mensaje
+                        </label>
+
+                        <textarea id="message" name="message" rows="6" placeholder="Escribe tu mensaje..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="contact-submit">
+                        <i class="fa-regular fa-paper-plane"></i>
+                        Enviar mensaje
+                    </button>
+
+                </form>
+
+            </article>
+
+        </div>
+    </section>
+
+    <!-- REDES SOCIALES -->
+    <section class="social-section">
+        <div class="container">
+            <header class="social-header">
+                <h2 class="subtitle">
+                    También puedes encontrarme en
+                </h2>
+                <span class="social-title-line"></span>
+            </header>
+
+            <div class="social-list">
+                <a href="https://github.com/codedev-miranda" class="social-card" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon social-icon-github">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+
+                    <div class="social-information">
+                        <h3>GitHub</h3>
+                        <p>Ver mis proyectos</p>
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/cristofer-miranda-691332419" class="social-card" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon social-icon-linkedin">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+
+                    <div class="social-information">
+                        <h3>LinkedIn</h3>
+                        <p>Conectemos</p>
+                    </div>
+                </a>
+
+                <a href="https://www.facebook.com/cristofer.miranda.90857?locale=es_LA" class="social-card" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon social-icon-facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+
+                    <div class="social-information">
+                        <h3>Facebook</h3>
+                        <p>Sígueme</p>
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/miranda48131/" class="social-card" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon social-icon-instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+
+                    <div class="social-information">
+                        <h3>Instagram</h3>
+                        <p>Mi día a día</p>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+</main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo-footer">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Cristofer Miranda</span>
+                    </a>
+                    <p class="parrafo">
+                        Estoy abierto a colaboraciones y nuevas oportunidades.
+                        Hablemos sobre cómo puedo ayudarte a construir tu próxima
+                        interfaz web.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <nav class="footer-navigation">
+                        <h3 class="titulo-card">
+                            Navegación
+                        </h3>
+                        <ul class="footer-menu">
+                            <li>
+                                <a href="index.html">Inicio</a>
+                            </li>
+                            <li>
+                                <a href="sobre_mi.html">Sobre mí</a>
+                            </li>
+                            <li>
+                                <a href="proyectos.html">Proyectos</a>
+                            </li>
+                            <li>
+                                <a href="habilidades.html">Habilidades</a>
+                            </li>
+                            <li>
+                                <a href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <address class="footer-contact">
+                        <h3 class="titulo-card">
+                            Contacto
+                        </h3>
+                        <ul class="footer-social">
+                            <li>
+                                <i class="fa-regular fa-envelope"></i>
+                                <a href="mailto:mirandacjmt@gmail.com">
+                                    mirandacjmt@gmail.com
+                                </a>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-github"></i>
+                                <a href="https://github.com/codedev-miranda" target="_blank" rel="noopener noreferrer">
+                                    codedev-miranda
+                                </a>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-youtube"></i>
+                                <a href="https://www.youtube.com/@CristoferMiranda-nx4qk" target="_blank" rel="noopener noreferrer">
+                                    DEV-Miranda
+                                </a>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-facebook"></i>
+                                <a href="https://www.facebook.com/cristofer.miranda.90857" target="_blank" rel="noopener noreferrer">
+                                    Cristofer Miranda
+                                </a>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="texto-pequeno">
+                    © 2026 Cristofer Miranda. Desarrollador Web.
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

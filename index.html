@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ae411aeebf.js" crossorigin="anonymous"></script>
+    <title>Inicio</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-code"></i>
+            </a>
+            <input type="checkbox" name="menu-desplegable" id="menu-desplegable">
+            <label for="menu-desplegable" class="menu-icono">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="sobre_mi.html">SOBRE MI</a></li>
+                    <li><a href="proyectos.html">PROYECTOS</a></li>
+                    <li><a href="habilidades.html">HABILIDADES</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <a href="" class="header-btn">CONTACTAME</a>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="portada-container">
+                <div class="hero-content">
+                    <div>
+                        <h1 class="titulo">Hola, soy <br>
+                        <span>CRISTOFER MIRANDA</span></h1>
+                    </div>
+                    <div class="hero-text">
+                        <h2 class="subtitulo">Creo experiencias web modernas combinando <span>diseño y código</span></h2>
+                        <p class="parrafo">Me especializo en desarrollar interfaces funcionales, responsivas y atractivas, aplicando buenas prácticas y un enfoque en la experiencia del usuario.</p>
+                    </div>
+                    <div class="hero-actions">
+                        <a class="btn-primary" href="proyectos.html"> Ver proyecto</a>
+                        <a class="btn-secondary" href="contacto.html">Contáctame</a>
+                    </div>
+                    <div class="social-links">
+                        <p class="descripcion">Sigueme en:</p>
+                        <a href="https://github.com/codedev-miranda">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@cristofermiranda4?_r=1&_t=ZS-987PjYI1sEp">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@CristoferMiranda-nx4qk">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="img/imagen-portada.png" alt="imagen-de-la-hero">
+                </div>
+            </div>
+        </section>
+        <section class="habilidades-container">
+            <div class="habilidades-content">
+                <div class="section-header">
+                    <h2 class="subtitulo v-1">Tecnologías destacadas</h2>
+                    <p class="parrafo p-1">Las herramientas y tecnologias que utilizo para construir interfaces web solidas</p>
+                </div>
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <i class="fa-brands fa-html5"></i>
+                        <h3 class="titulo-card">
+                            HTML5
+                        </h3>
+                        <p class="parrafo">Estructura semantica y accesible</p>
+                    </article>
+                    <article class="skill-card">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <h3 class="titulo-card">
+                            CSS3
+                        </h3>
+                        <p class="parrafo">Estilos modernos y animaciones</p>
+                    </article>
+                    <article class="skill-card">
+                        <i class="fa-solid fa-border-none"></i>
+                        <h3 class="titulo-card">
+                            Flexbox
+                        </h3>
+                        <p class="parrafo">Layouts flexibles de una dimensión</p>
+                    </article>
+                    <article class="skill-card">
+                        <i class="fa-solid fa-grip"></i>
+                        <h3 class="titulo-card">
+                            CSS Grid
+                        </h3>
+                        <p class="parrafo">Estructuras bidimensionales</p>
+                    </article>
+                    <article class="skill-card">
+                        <i class="fa-solid fa-mobile-screen"></i>
+                        <h3 class="titulo-card">
+                            Responsive Design
+                        </h3>
+                        <p class="parrafo">Enfoque mobile-first</p>
+                    </article>
+                    <article class="skill-card">
+                        <i class="fa-brands fa-figma"></i>
+                        <h3 class="titulo-card">
+                            Figma
+                        </h3>
+                        <p class="parrafo">Prototipado y diseño UI/UX</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="proyectos-container">
+            <div class="proyectos-content">
+                <div class="section-header">
+                    <h2 class="subtitulo">Proyectos destacados</h2>
+                    <p class="parrafo">Una selección de mi evolución como desarrollador, desde sistemas hasta interfaces frontend.</p>
+                </div>
+                <div class="projects-grid">
+                    <div class="projects-grid">
+                        <article class="project-card">
+                            <div class="project-content">
+                                <p class="texto-pequeno">
+                                    Aplicación de escritorio / Web · 2025
+                                </p>
+                                <h3 class="titulo-card">
+                                    Sistema de gestión de ventas y  compras
+                                </h3>
+                                <p class="parrafo">
+                                    Aplicación desarrollada para administrar clientes, productos,
+                                    compras y ventas mediante operaciones CRUD y una base de datos
+                                relacional.
+                                </p>
+                            </div>
+                            <div class="project-footer">
+                                <ul class="project-tags">
+                                    <div class="tag">PHP</div>
+                                    <div class="tag">HTML5</div>
+                                    <div class="tag">CSS3</div>
+                                    <div class="tag">MySQL</div>
+                                </ul>
+                                <div class="project-actions">
+                                    <a href="proyectos.html#proyecto1">
+                                        Ver detalle
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="project-card">
+                            <div class="project-content">
+                                <p class="texto-pequeno">
+                                    Sitio web · 2026
+                                </p>
+                                <h3 class="titulo-card">
+                                    NexaCore — Versión inicial
+                                </h3>
+                                <p class="parrafo">
+                                    Mi primer proyecto completo de desarrollo frontend, donde aprendí
+                                    HTML semántico y la distribución de componentes utilizando
+                                    Flexbox.
+                                </p>
+                            </div>
+                            <div class="project-footer">
+                                <ul class="project-tags">
+                                    <div class="tag">HTML5</div>
+                                    <div class="tag">CSS3</div>
+                                    <div class="tag">Flexbox</div>
+                                </ul>
+                                <div class="project-actions">
+                                    <a href="proyectos.html#proyecto2">
+                                        Ver detalle
+                                    </a>
+                                </div>
+                            </div>
+
+                        </article>
+                        <article class="project-card">
+                            <div class="project-content">
+                                <p class="texto-pequeno">
+                                    Sitio web responsivo · 2026
+                                </p>
+                                <h3 class="titulo-card">
+                                    NexaCore — Versión actual
+                                </h3>
+                                <p class="parrafo">
+                                    Rediseño completo de NexaCore aplicando Figma, CSS Grid,
+                                    Flexbox, diseño responsive y buenas prácticas de accesibilidad.
+                                </p>
+                            </div>
+                            <div class="project-footer">
+                                <ul class="project-tags">
+                                    <div class="tag">HTML5</div>
+                                    <div class="tag">CSS3</div>
+                                    <div class="tag">CSS Grid</div>
+                                    <div class="tag">Flexbox</div>
+                                    <div class="tag">Responsive</div>
+                                    <div class="tag">Figma</div>
+                                </ul>
+                                <div class="project-actions">
+                                    <a href="proyectos.html#proyecto3">
+                                        Ver detalle
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <aside class="cta">
+        <div class="cta-container">
+            <div class="cta-content">
+                <h2 class="subtitulo">¿Tienes un proyecto en mente?</h2>
+                <p class="parrafo">Estoy abierto a colaboraciones y nuevas oportunidades. Hablemos sobre cómo puedo ayudarte a construir tu próxima interfaz web.</p>
+            </div>
+            <div class="cta-actions">
+                
+                <a href="contacto.html">
+                    <i class="fa-regular fa-paper-plane"></i>
+                    CONTACTAME</a>
+            </div>
+        </div>
+    </aside>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo-footer">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Cristofer Miranda</span>
+                    </a>
+                    <p class="parrafo">
+                        Estoy abierto a colaboraciones y nuevas oportunidades.
+                        Hablemos sobre cómo puedo ayudarte a construir tu próxima
+                        interfaz web.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <nav class="footer-navigation">
+                        <h3 class="titulo-card">
+                            Navegación
+                        </h3>
+                        <ul class="footer-menu">
+                            <li>
+                                <a href="index.html">Inicio</a>
+                            </li>
+                            <li>
+                                <a href="sobre_mi.html">Sobre mí</a>
+                            </li>
+                            <li>
+                                <a href="proyectos.html">Proyectos</a>
+                            </li>
+                            <li>
+                                <a href="habilidades.html">Habilidades</a>
+                            </li>
+                            <li>
+                                <a href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <address class="footer-contact">
+                        <h3 class="titulo-card">
+                            Contacto
+                        </h3>
+                        <ul class="footer-social">
+                            <li>
+                                <i class="fa-regular fa-envelope"></i>
+                                <a href="mailto:mirandacjmt@gmail.com">
+                                    mirandacjmt@gmail.com
+                                </a>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-github"></i>
+                                <a href="https://github.com/codedev-miranda" target="_blank" rel="noopener noreferrer">
+                                    codedev-miranda
+                                </a>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-youtube"></i>
+                                <a href="https://www.youtube.com/@CristoferMiranda-nx4qk" target="_blank" rel="noopener noreferrer">
+                                    DEV-Miranda
+                                </a>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-facebook"></i>
+                                <a href="https://www.facebook.com/cristofer.miranda.90857" target="_blank" rel="noopener noreferrer">
+                                    Cristofer Miranda
+                                </a>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="texto-pequeno">
+                    © 2026 Cristofer Miranda. Desarrollador Web.
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
