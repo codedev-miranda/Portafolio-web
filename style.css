@@ -458,6 +458,7 @@ img{
     color: var(--primary-background);
 }
 .cta-actions a{
+    display: inline-block;
     background-color: var(--primary);
     padding: 8px 15px;
     text-decoration: none;
@@ -465,6 +466,7 @@ img{
     font-family: var(--text-parrafo);
     font-size: 1.125rem;
     border-radius: 8px;
+    width: fit-content;
 }
 .cta-actions a:hover{
     background-color: var(--hover);
